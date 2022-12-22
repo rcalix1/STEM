@@ -1,0 +1,174 @@
+/*---------------------------------------------------------------------------*/
+
+a:link    { color:#0000FF; text-decoration: none; }
+a:visited { color:#2200AA; text-decoration: none; }
+a:hover   { color:#AA0000; text-decoration: underline; }
+a:active  { color:#FF0000; text-decoration: underline; }
+
+body {
+    margin-left:   10%;
+    margin-right:  10%;
+    margin-top:    5em;
+    margin-bottom: 5em;
+    font-family: "Lucida Grande", "Verdana", "Arial", sans-serif;
+    font-size: small;
+    line-height: 140%;
+}
+
+table {
+    font-size: small;
+}
+
+hr {
+    clear: both;
+    border-style: none;
+}
+
+p {
+    text-align: justify;
+}
+
+code, pre {
+  font-family: "Lucida Sans Typewriter", "Courier New", monospace;
+}
+
+/*---------------------------------------------------------------------------*/
+
+h1, h2, h3, h4, h5 {
+    margin:  0px;
+    padding: 0.5em;
+    background-color: #EEF;
+}
+
+h1 {
+    clear: both;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Lists of items each with a picture and text                               */
+
+div.item {
+    clear: both;
+}
+
+div.pic {
+    float: left;
+    width: 320px;
+    margin-bottom: 2em;
+}
+
+div.txt {
+    margin-left: 336px;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Navigation table                                                          */
+
+#nav {
+    clear: both;
+    width: 100%;
+    margin-bottom: 2em;
+}
+
+#nav td {
+    text-align: center;
+    width: 13%;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Calender table                                                            */
+
+table.calendar {
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+td.lec {
+  width:  10em;
+  height: 10em;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  vertical-align: top;
+  background: #CFC;
+}
+
+
+td.lec30 {
+    width:  5em;
+    height: 5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    vertical-align: top;
+    background: #CFC;
+}
+td.brek {
+    width:  2.5em;
+    height: 2.5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    vertical-align: top;
+    color:      #FFF;
+    background: #FCC;
+}
+
+td.quiz {
+    width:  2.5em;
+    height: 2.5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    vertical-align: top;
+    background: #CFC;
+}
+
+
+td.fin {
+  width:  10em;
+  height: 10em;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  vertical-align: top;
+  background: #FFC;
+}
+
+td.hol {
+  width:  10em;
+  height: 10em;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  vertical-align: top;
+  color:      #FFF;
+  background: #FCC;
+}
+
+
+td.hol30 {
+    width:  5em;
+    height: 5em;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    vertical-align: top;
+    color:      #FFF;
+    background: #FCC;
+}
+
+
+td.off {
+  width:  10em;
+  height: 10em;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  vertical-align: top;
+  color:      #FFF;
+  background: #DDD;
+}
+
+/*---------------------------------------------------------------------------*/
+
