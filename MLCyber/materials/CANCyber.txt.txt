@@ -1,0 +1,13 @@
+CAN network attacks
+
+Hackers are attacking CAN networks of 2016-2018 luxury sedans. 
+You are tasked with designing a machine learning based approach to detect attacks in these CAN NETWORKS. 
+There is currently no data so you will need to obtain it or create it. 
+CAN networks are basically computer bus type communication lines in a car that allow signals to be transmitted between different sensors of the car. 
+Think of the signals as very simple network packets 
+How would you approach this problem? Suggest a machine learning pipeline that you could use and define the following:
+
+some of the features you could use
+how would you obtain the labels
+what is an instance?
+draw your X and y matrices
